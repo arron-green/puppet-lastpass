@@ -5,7 +5,7 @@
 #   include lastpass
 class lastpass {
   package { 'Lastpass':
-    provider => 'appdmg',
+    provider => 'pkgdmg',
     source   => 'https://download.lastpass.com/lpmacosx.dmg'
   }
 }
